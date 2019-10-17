@@ -6,7 +6,7 @@ const Header = () => {
         <div className="header d-flex">
             <h3>
                 <a href="#">
-                    Star Wars Univers
+                    Star Wars Universe
                 </a>
             </h3>
             <ul className="d-flex">

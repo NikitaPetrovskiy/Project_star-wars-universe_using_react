@@ -11,7 +11,7 @@ import './app.css';
 const App = (props) => {
 
     return (
-        <div>
+        <div className="container">
             <Header />
             <RandomPlanet />
             <div className="row mb2">
