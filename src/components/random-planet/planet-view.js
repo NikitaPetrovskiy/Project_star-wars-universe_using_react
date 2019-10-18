@@ -8,7 +8,8 @@ const PlanetView = ({ planet }) => {
     return (
         <React.Fragment>
             <img className="planet-image"
-                 src={`https://starwars-visualguide.com/assets/img/planets/${ id }.jpg`} />
+                 src={`https://starwars-visualguide.com/assets/img/planets/${ id }.jpg`}
+                 alt="planet img"/>
             <div>
                 <h4>{ name }</h4>
                 <ul className="list-group list-group-flush">
