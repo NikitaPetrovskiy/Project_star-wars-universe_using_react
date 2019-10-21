@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b795ed58-50a7-4a5b-85ab-37654cf1eca2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/people-page/people-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people-page/people-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/swapiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/swapiService.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="382">
+              <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -32,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/people-page/people-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="-248">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -42,39 +45,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/people-page/people-page.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/person-details/person-details.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Row/Row.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/random-planet/planet-view.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="336">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-end-line="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -83,10 +57,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/item-list/item-list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/swapiService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+            <state relative-caret-position="210">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+              <folding>
+                <element signature="e#110#321#0" />
+                <element signature="e#354#472#0" />
+                <element signature="e#505#622#0" />
+                <element signature="e#655#774#0" />
+                <element signature="e#806#922#0" />
+                <element signature="e#958#1081#0" />
+                <element signature="e#1115#1241#0" />
+                <element signature="n#!!block;n#_extractId#0;n#SwapiService#0;n#!!top" />
+                <element signature="e#1360#1600#0" />
+                <element signature="e#1641#2056#0" />
+                <element signature="e#2093#2316#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +95,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -119,13 +118,16 @@
     <setting file="file://$PROJECT_DIR$/src/components/starship-details/starship-details.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/error-indicator/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/item-list/index.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/components/Row/Row.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/person-details/person-details.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/item-list/item-list.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/planet-details/index.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/components/people-page/people-page.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/random-planet/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/people-page/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/person-details/index.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/components/app/app.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/app/app.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/services/swapiService.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/header/index.js" root0="SKIP_INSPECTION" />
@@ -160,13 +162,17 @@
         <option value="$PROJECT_DIR$/src/components/error-indicator/error-indicator.css" />
         <option value="$PROJECT_DIR$/src/components/random-planet/planet-view.js" />
         <option value="$PROJECT_DIR$/src/components/header/header.js" />
-        <option value="$PROJECT_DIR$/src/components/item-list/item-list.js" />
         <option value="$PROJECT_DIR$/src/components/person-details/person-details.js" />
-        <option value="$PROJECT_DIR$/src/services/swapiService.js" />
         <option value="$PROJECT_DIR$/src/components/random-planet/random-planet.js" />
         <option value="$PROJECT_DIR$/src/components/people-page/people-page.css" />
         <option value="$PROJECT_DIR$/src/components/people-page/index.js" />
+        <option value="$PROJECT_DIR$/src/services/swapiService.js" />
+        <option value="$PROJECT_DIR$/src/components/app/app.css" />
         <option value="$PROJECT_DIR$/src/components/app/app.js" />
+        <option value="$PROJECT_DIR$/src/components/item-list/item-list.js" />
+        <option value="$PROJECT_DIR$/src/components/Row/Row.css" />
+        <option value="$PROJECT_DIR$/src/components/Row/Row.js" />
+        <option value="$PROJECT_DIR$/src/components/Row/index.js" />
         <option value="$PROJECT_DIR$/src/components/people-page/people-page.js" />
       </list>
     </option>
@@ -212,7 +218,34 @@
               <item name="star_wars_universe_react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="people-page" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="star_wars_universe_react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="star_wars_universe_react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="item-list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="star_wars_universe_react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="star_wars_universe_react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="person-details" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="star_wars_universe_react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="star_wars_universe_react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Row" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="star_wars_universe_react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="star_wars_universe_react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,12 +298,12 @@
       <workItem from="1570538374299" duration="4372000" />
       <workItem from="1570705087064" duration="2300000" />
       <workItem from="1570780790043" duration="9220000" />
-      <workItem from="1571307508231" duration="10578000" />
+      <workItem from="1571307508231" duration="15128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26470000" />
+    <option name="totallyTimeSpent" value="31020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -407,25 +440,12 @@
     <entry file="file://$PROJECT_DIR$/src/components/planet-details/planet-details.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/planet-details/planet-details.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/planet-details/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/app.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -436,13 +456,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/person-details/person-details.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/spinner/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -516,49 +529,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/item-list/item-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/swapiService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/random-planet/planet-view.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/person-details/person-details.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -573,20 +549,114 @@
     <entry file="file://$PROJECT_DIR$/src/components/people-page/people-page.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
+    <entry file="file://$PROJECT_DIR$/src/components/random-planet/random-planet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="483">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/planet-details/planet-details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/person-details/person-details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/swapiService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="e#110#321#0" />
+            <element signature="e#354#472#0" />
+            <element signature="e#505#622#0" />
+            <element signature="e#655#774#0" />
+            <element signature="e#806#922#0" />
+            <element signature="e#958#1081#0" />
+            <element signature="e#1115#1241#0" />
+            <element signature="n#!!block;n#_extractId#0;n#SwapiService#0;n#!!top" />
+            <element signature="e#1360#1600#0" />
+            <element signature="e#1641#2056#0" />
+            <element signature="e#2093#2316#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/item-list/item-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/person-details/person-details.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Row/Row.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Row/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Row/Row.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/people-page/people-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="-248">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

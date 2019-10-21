@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import SwapiService from "../../services/swapiService";
 import Header from '../header';
 import ItemList from '../item-list';
 import RandomPlanet from "../random-planet";
@@ -11,6 +12,7 @@ import './app.css';
 
 
 export default class App extends Component {
+    swapiService =  new SwapiService();
     state = {
         showRandomPlanet: true,
         hasError: false
@@ -28,7 +30,7 @@ export default class App extends Component {
             null;
 
         return (
-            <div className="container">
+            <div className="container stardb-app">
                 <Header/>
                 { planet }
                 <PeoplePage />
