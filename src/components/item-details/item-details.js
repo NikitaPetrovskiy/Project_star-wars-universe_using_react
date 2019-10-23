@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './item-details.css';
-import SwapiService from "../../services/swapiService";
 
-export const Record = ({item, field, label}) => {
+import './item-details.css';
+
+const Record = ({item, field, label}) => {
   return (
       <li className="list-group-item">
           <span className="term">{label}</span>
@@ -12,7 +12,6 @@ export const Record = ({item, field, label}) => {
 };
 
 export default class ItemDetails extends Component {
-    swapiService = new SwapiService();
     state = {
         item: null,
         image: null
@@ -47,8 +46,7 @@ export default class ItemDetails extends Component {
         if (!item) {
             return <span>Select a item from a list</span>
         }
-        const { id, name, gender,
-                birthYear, eyeColor } = item;
+        const { name } = item;
 
         return (
             <div className="item-details card">
@@ -68,3 +66,5 @@ export default class ItemDetails extends Component {
         );
     };
 };
+
+export { Record };
