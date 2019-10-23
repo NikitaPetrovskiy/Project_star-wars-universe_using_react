@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import SwapiService from "../../services/swapiService";
 import Header from '../header';
-import withData from '../item-list';
 import RandomPlanet from "../random-planet";
 import ItemDetails from '../item-details';
 import PeoplePage from '../people-page';
@@ -36,15 +35,9 @@ export default class App extends Component {
                     <PlanetDetails itemId={5} />
                     <StarshipDetails itemId={9} />
 
-                    <PersonList>
-                        {({name}) => <span>{name}</span>}
-                    </PersonList>
-                    <StarshipList>
-                        {({name}) => <span>{name}</span>}
-                    </StarshipList>
-                    <PlanetList>
-                        {({name}) => <span>{name}</span>}
-                    </PlanetList>
+                    <PersonList />
+                    <StarshipList />
+                    <PlanetList />
                 </div>
             </ErrorBoundary>
         );
