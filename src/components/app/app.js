@@ -4,11 +4,8 @@ import SwapiService from "../../services/swapiService";
 import Header from '../header';
 import RandomPlanet from "../random-planet";
 import ItemDetails from '../item-details';
-import PeoplePage from '../people-page';
-import ErrorIndicator from "../error-indicator";
-import Row from "../row";
 import ErrorBoundary from "../error-boundary";
-import {Record} from "../item-details/item-details";
+import { SwapiServiceProvider } from '../swapi-service-context';
 import { PersonList, PlanetList, StarshipList,
     PersonDetails, PlanetDetails, StarshipDetails } from '../sw-components';
 
@@ -28,6 +25,7 @@ export default class App extends Component {
         const {getPerson, getStarship, getPersonImage, getStarshipImage } = this.swapiService;
         return (
             <ErrorBoundary>
+                <SwapiServiceProvider value={this.swapiService} >
                 <div className="container stardb-app">
                     <Header/>
 
@@ -39,6 +37,7 @@ export default class App extends Component {
                     <StarshipList />
                     <PlanetList />
                 </div>
+                </SwapiServiceProvider>
             </ErrorBoundary>
         );
     };
