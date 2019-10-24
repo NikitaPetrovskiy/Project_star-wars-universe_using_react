@@ -7,13 +7,22 @@ const withData = (View) => {
             data: null
         };
         componentDidMount() {
+            this.updateData();
+        };
+        componentDidUpdate(prevProps) {
+          if (this.props.getData !== prevProps.getData) {
+              this.updateData();
+          }
+        };
+
+        updateData() {
             this.props.getData()
                 .then((data) => {
                     this.setState({
                         data
                     });
                 });
-        }
+        };
 
         render() {
             const { data } = this.state;

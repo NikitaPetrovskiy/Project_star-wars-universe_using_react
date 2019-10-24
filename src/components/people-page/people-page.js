@@ -3,7 +3,7 @@ import './people-page.css';
 import ItemList from "../item-list";
 import ItemDetails from "../item-details";
 import ErrorIndicator from "../error-indicator";
-import SwapiService from "../../services/swapiService";
+import SwapiService from "../../services/swapi-service";
 import Row from "../row";
 import ErrorBoundary from '../error-boundary';
 

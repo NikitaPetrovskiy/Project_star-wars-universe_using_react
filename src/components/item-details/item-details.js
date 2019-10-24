@@ -21,7 +21,9 @@ export default class ItemDetails extends Component {
         this.updatePerson();
     };
     componentDidUpdate(prevProps) {
-      if (this.props.itemId !== prevProps.itemId) {
+      if (this.props.itemId !== prevProps.itemId ||
+          this.props.getData !== prevProps.getData ||
+          this.props.getImageUrl !== prevProps.getImageUrl) {
           this.updatePerson();
       };
     };
