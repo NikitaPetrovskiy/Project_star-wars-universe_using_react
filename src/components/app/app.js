@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route} from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import SwapiService from "../../services/swapi-service";
 import DummySwapiService from "../../services/dummy-swapi-service";
@@ -32,15 +32,18 @@ export default class App extends Component {
                         <div className="container stardb-app">
                             <Header onServiceChange={this.onServiceChange}/>
                             <RandomPlanet />
-                            <Route path="/" exact component={MainPage}/>
-                            <Route path="/people/:id?" component={PeoplePage} />
-                            <Route path="/planets" component={PlanetPage} />
-                            <Route path="/starships" exact component={StarshipPage} />
-                            <Route path="/starships/:id"
-                                   render={({ match }) => {
-                                       const { id } = match.params;
-                                       return <StarshipDetails itemId={id} />
-                            }} />
+                            <Switch>
+                                <Route path="/" exact component={MainPage}/>
+                                <Route path="/people/:id?" component={PeoplePage} />
+                                <Route path="/planets/:id?" component={PlanetPage} />
+                                <Route path="/starships" exact component={StarshipPage} />
+                                <Route path="/starships/:id"
+                                       render={({ match }) => {
+                                           const { id } = match.params;
+                                           return <StarshipDetails itemId={id} />
+                                       }} />
+                                <Route render={() => <h2>Page not found</h2>} />
+                            </Switch>
                         </div>
                     </BrowserRouter>
                 </SwapiServiceProvider>
