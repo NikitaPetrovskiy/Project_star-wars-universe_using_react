@@ -33,7 +33,7 @@ export default class App extends Component {
                             <Header onServiceChange={this.onServiceChange}/>
                             <RandomPlanet />
                             <Route path="/" exact component={MainPage}/>
-                            <Route path="/people" component={PeoplePage} />
+                            <Route path="/people/:id?" component={PeoplePage} />
                             <Route path="/planets" component={PlanetPage} />
                             <Route path="/starships" exact component={StarshipPage} />
                             <Route path="/starships/:id"
