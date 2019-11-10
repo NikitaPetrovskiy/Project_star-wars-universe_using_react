@@ -5,6 +5,7 @@ Project was created using libraries: <br/>
 - react (React, Component) <br/>
 - react-router-dom (BrouserRouter, Route, Link, Switch, Redirect, withRouter) <br/> 
 - prop-types (PropTypes) <br/> 
+
 Also used additionally: <br/>
 - API: https://swapi.co/api (people, planet, starships) and https://starwars-visualguide.com/#/ (images). <br/>
 - CSS: https://www.bootstrapcdn.com/ and  https://bootswatch.com/darkly/ <br/>
@@ -25,4 +26,4 @@ npm install
 npm start
 ```
 
-#### Author: [Nikita Petrovskiy](https://www.linkedin.com/in/nikpetrovskiy/
+#### Author: [Nikita Petrovskiy](https://www.linkedin.com/in/nikpetrovskiy/)
